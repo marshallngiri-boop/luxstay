@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuxStay - Hotel & Villa</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="loader" id="loader">
+    <h2>LuxStay</h2>
+    <p>Menyiapkan pengalaman terbaik...</p>
+  </div>
+
+  <header class="navbar">
+    <div class="logo">
+      <h2>LuxStay</h2>
+      <span>HOTEL & VILLA</span>
+    </div>
+
+    <nav class="nav-menu">
+      <a href="#home">Beranda</a>
+      <a href="#rooms">Kamar & Villa</a>
+      <a href="#facilities">Fasilitas</a>
+      <a href="#gallery">Galeri</a>
+      <a href="#testimonial">Testimoni</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+
+    <button class="theme-toggle" id="themeToggle">🌙</button>
+
+    <div class="menu-toggle" id="menuToggle">☰</div>
+
+    <a href="#booking" class="nav-btn">Pesan Sekarang</a>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home">Beranda</a>
+    <a href="#rooms">Kamar & Villa</a>
+    <a href="#facilities">Fasilitas</a>
+    <a href="#gallery">Galeri</a>
+    <a href="#testimonial">Testimoni</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Kontak</a>
+  </div>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-subtitle">HOTEL & VILLA PREMIUM</p>
+
+      <h1>Temukan Penginapan Mewah Impian Anda</h1>
+
+      <p class="hero-desc">
+        Nikmati pengalaman menginap nyaman, elegan, dan berkelas
+        dengan pilihan hotel serta villa terbaik untuk liburan,
+        keluarga, maupun perjalanan bisnis.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#booking" class="btn-primary">Cek Ketersediaan</a>
+        <a href="#rooms" class="btn-secondary">Lihat Kamar</a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="feature-item">
+        <span>🏨</span>
+        <div>
+          <h4>Kamar Mewah</h4>
+          <p>Nyaman & elegan</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <span>🍽️</span>
+        <div>
+          <h4>Restoran</h4>
+          <p>Menu terbaik</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <span>🏊</span>
+        <div>
+          <h4>Kolam Renang</h4>
+          <p>Pemandangan indah</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="booking-bar" id="booking">
+    <div class="booking-item">
+      <label>Check In</label>
+      <input type="date">
+    </div>
+
+    <div class="booking-item">
+      <label>Check Out</label>
+      <input type="date">
+    </div>
+
+    <div class="booking-item">
+      <label>Jumlah Tamu</label>
+      <select>
+        <option>1 Tamu</option>
+        <option>2 Tamu</option>
+        <option>3 Tamu</option>
+        <option>4+ Tamu</option>
+      </select>
+    </div>
+
+    <button class="booking-btn">Cari Kamar</button>
+  </section>
+
+  <section class="stats reveal">
+    <div class="stats-container">
+      <div class="stats-box">
+        <h2>120+</h2>
+        <p>Kamar Premium</p>
+      </div>
+
+      <div class="stats-box">
+        <h2>15K+</h2>
+        <p>Tamu Menginap</p>
+      </div>
+
+      <div class="stats-box">
+        <h2>4.9</h2>
+        <p>Rating Pengunjung</p>
+      </div>
+
+      <div class="stats-box">
+        <h2>24/7</h2>
+        <p>Layanan Customer</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="rooms reveal" id="rooms">
+    <div class="section-heading">
+      <p>PILIHAN KAMAR & VILLA</p>
+      <h2>Temukan Penginapan Terbaik Untuk Anda</h2>
+    </div>
+
+    <div class="room-container">
+      <div class="room-card">
+        <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=80" alt="Deluxe Room">
+        <div class="room-info">
+          <h3>Deluxe Room</h3>
+          <p>Kamar nyaman dengan desain modern dan suasana premium.</p>
+          <div class="room-bottom">
+            <span>Rp850.000 / malam</span>
+            <a href="#booking">Pesan</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="room-card">
+        <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=900&q=80" alt="Private Villa">
+        <div class="room-info">
+          <h3>Private Villa</h3>
+          <p>Villa eksklusif dengan suasana tenang dan fasilitas terbaik.</p>
+          <div class="room-bottom">
+            <span>Rp1.750.000 / malam</span>
+            <a href="#booking">Pesan</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="room-card">
+        <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=900&q=80" alt="Suite Premium">
+        <div class="room-info">
+          <h3>Suite Premium</h3>
+          <p>Penginapan mewah dengan pelayanan dan fasilitas premium.</p>
+          <div class="room-bottom">
+            <span>Rp2.300.000 / malam</span>
+            <a href="#booking">Pesan</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="facilities reveal" id="facilities">
+    <div class="section-heading">
+      <p>FASILITAS PREMIUM</p>
+      <h2>Nikmati Kenyamanan Terbaik</h2>
+    </div>
+
+    <div class="facility-container">
+      <div class="facility-card">
+        <div class="facility-icon">🏊</div>
+        <h3>Infinity Pool</h3>
+        <p>Kolam renang mewah dengan pemandangan indah.</p>
+      </div>
+
+      <div class="facility-card">
+        <div class="facility-icon">🍽️</div>
+        <h3>Restoran Premium</h3>
+        <p>Nikmati makanan lokal dan internasional terbaik.</p>
+      </div>
+
+      <div class="facility-card">
+        <div class="facility-icon">🛏️</div>
+        <h3>Kamar Elegan</h3>
+        <p>Desain modern dan nyaman untuk pengalaman terbaik.</p>
+      </div>
+
+      <div class="facility-card">
+        <div class="facility-icon">💆</div>
+        <h3>Spa & Relax</h3>
+        <p>Fasilitas spa premium untuk relaksasi terbaik.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery reveal" id="gallery">
+    <div class="section-heading">
+      <p>GALERI PENGINAPAN</p>
+      <h2>Suasana Nyaman Untuk Liburan Anda</h2>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item large">
+        <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1000&q=80" alt="Galeri Hotel">
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=900&q=80" alt="Kamar Hotel">
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=900&q=80" alt="Villa">
+      </div>
+
+      <div class="gallery-item wide">
+        <img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1000&q=80" alt="Resort">
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial reveal" id="testimonial">
+    <div class="section-heading">
+      <p>TESTIMONI TAMU</p>
+      <h2>Apa Kata Mereka Tentang LuxStay</h2>
+    </div>
+
+    <div class="testimonial-container">
+      <div class="testimonial-card">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>Pengalaman menginap yang sangat nyaman dan mewah. Pelayanannya ramah dan fasilitasnya lengkap.</p>
+        <div class="testimonial-user">
+          <div class="user-img">A</div>
+          <div>
+            <h4>Andi Pratama</h4>
+            <span>Bandung</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>Villa nya sangat estetik dan cocok untuk liburan keluarga. Pemandangannya luar biasa indah.</p>
+        <div class="testimonial-user">
+          <div class="user-img">S</div>
+          <div>
+            <h4>Salsa Wijaya</h4>
+            <span>Jakarta</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>Salah satu hotel terbaik yang pernah saya kunjungi. Interior dan suasananya benar-benar premium.</p>
+        <div class="testimonial-user">
+          <div class="user-img">R</div>
+          <div>
+            <h4>Rizky Maulana</h4>
+            <span>Surabaya</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq reveal" id="faq">
+    <div class="section-heading">
+      <p>PERTANYAAN UMUM</p>
+      <h2>Informasi Sebelum Memesan</h2>
+    </div>
+
+    <div class="faq-container">
+      <div class="faq-item">
+        <h3>Apakah bisa pesan kamar secara online?</h3>
+        <p>Ya, Anda dapat memilih tanggal, jumlah tamu, lalu menghubungi kami untuk proses pemesanan.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Apakah tersedia villa untuk keluarga?</h3>
+        <p>Ya, kami menyediakan private villa yang cocok untuk keluarga, pasangan, maupun acara liburan bersama.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Apakah harga sudah termasuk sarapan?</h3>
+        <p>Beberapa tipe kamar sudah termasuk sarapan. Detail lengkap bisa ditanyakan saat melakukan pemesanan.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact reveal" id="contact">
+    <div class="section-heading">
+      <p>KONTAK KAMI</p>
+      <h2>Hubungi LuxStay</h2>
+    </div>
+
+    <div class="contact-container">
+      <div class="contact-box">
+        <h3>LuxStay Hotel & Villa</h3>
+        <p>
+          Nikmati pengalaman menginap premium dengan suasana nyaman,
+          pelayanan terbaik, dan fasilitas eksklusif.
+        </p>
+
+        <div class="contact-item">📍 Bandung, Indonesia</div>
+        <div class="contact-item">📞 +62 812 3456 7890</div>
+        <div class="contact-item">✉️ luxstay@email.com</div>
+      </div>
+
+      <form class="contact-form">
+        <input type="text" placeholder="Nama Anda">
+        <input type="email" placeholder="Email Anda">
+        <textarea placeholder="Pesan Anda"></textarea>
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <h2>LuxStay</h2>
+    <p>© 2026 LuxStay Hotel & Villa. All Rights Reserved.</p>
+  </footer>
+
+  <button class="back-to-top" id="backToTop">↑</button>
+
+  <div class="cursor"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
