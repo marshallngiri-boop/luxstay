@@ -163,3 +163,11 @@ hoverItems.forEach((item) => {
   });
 
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const loader = document.getElementById("loader");
+
+  setTimeout(() => {
+    loader.classList.add("hide");
+  }, 1200);
+});
